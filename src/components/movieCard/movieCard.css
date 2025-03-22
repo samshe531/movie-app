@@ -1,0 +1,62 @@
+.carte{ 
+    display: inline;
+}
+.carte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .carte .card {
+    width: 300px; /* Taille uniforme */
+    height: 450px; /* Hauteur fixe */
+    border-radius: 12px; /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre douce */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden; /* Évite les débordements */
+  }
+  
+  .carte .card:hover {
+    transform: scale(1.05); /* Effet zoom */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .carte .card img {
+    height: 60%; /* Image occupe 60% de la carte */
+    object-fit: cover; /* Garde les proportions de l’image */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .carte .card-body {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .carte .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .carte .card-text {
+    font-size: 0.9rem;
+    color: #666;
+    height: 50px;
+    overflow: hidden; /* Empêche les descriptions trop longues de déformer la carte */
+    text-overflow: ellipsis;
+  }
+  
+  .carte .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    transition: background-color 0.3s;
+  }
+  
+  .carte .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
