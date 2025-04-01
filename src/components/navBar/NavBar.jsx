@@ -1,19 +1,22 @@
-import React from 'react'
-import { Container, Nav, Navbar } from 'react-bootstrap'
+import React from "react";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import "./navbar.css"; // Ajoute du style
 
 export const NavBar = () => {
   return (
-    <div>
-        <Navbar bg="light" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+    <Navbar expand="lg" className="navbar-custom">
+      <Container>
+        <Navbar.Brand href="/" className="navbar-brand">
+          🎬 Movie App
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="/" className="nav-link-custom">Accueil</Nav.Link>
+            <Nav.Link href="#" className="nav-link-custom">Contact</Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
-    </div>
-  )
-}
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};

@@ -10,7 +10,7 @@
   
   .carte .card {
     width: 300px; /* Taille uniforme */
-    height: 450px; /* Hauteur fixe */
+    height: 550px; /* Hauteur fixe */
     border-radius: 12px; /* Coins arrondis */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre douce */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

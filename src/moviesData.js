@@ -120,5 +120,6 @@ export const moviesData = [
         "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
       trailer: "https://www.youtube.com/embed/SEUXfv87Wpk",
     },
+    
   ];
   
